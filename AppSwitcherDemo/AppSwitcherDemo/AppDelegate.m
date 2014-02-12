@@ -16,6 +16,8 @@
     return YES;
 }
 
+
+// アプリが終了されたタイミングでcallされる
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     UILocalNotification *notification = [[UILocalNotification alloc] init];
